@@ -1,0 +1,75 @@
+version: '2'
+
+services:
+
+    mysql:
+        image: mysql:5.7
+        container_name: big-project_mysql
+        restart: unless-stopped
+        ports:
+            - 3308:3306
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: app_db
+            MYSQL_USER: app_user
+            MYSQL_PASSWORD: 123456
+        networks: 
+            - backend
+
+    php:
+        build: .
+        container_name: big-project_php
+        restart: unless-stopped
+        depends_on: 
+            - mysql
+            - redis
+        volumes: 
+            - .:/var/www/html/big-project
+        networks: 
+            - backend
+            - frontend
+
+    redis:
+        image: redis:5-alpine
+        container_name: big-project_redis
+        volumes: 
+            - ./docker/redis:/data
+        restart: unless-stopped
+        networks: 
+            - backend
+        
+    nginx:
+        image: nginx:latest
+        container_name: big-project_nginx
+        volumes: 
+            - .:/var/www/html/big-project
+            - ./docker/nginx_log:/var/log/nginx
+            - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
+            - ./docker/config/backend.conf:/etc/nginx/conf.d/backend.conf
+        ports:
+            - "80:80"
+        depends_on: 
+            - php
+        networks: 
+            - frontend
+
+    phpmyadmin:
+        image: phpmyadmin
+        container_name: big-project_phpmyadmin
+        restart: unless-stopped
+        ports:
+            - 8282:80
+        depends_on: 
+            - mysql
+        environment:
+            - PMA_HOST=mysql
+            - MYSQL_ROOT_PASSWORD=root
+            - UPLOAD_LIMIT=64M
+        networks: 
+            - backend
+
+networks: 
+    backend:
+    frontend:
