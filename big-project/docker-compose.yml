@@ -19,7 +19,9 @@ services:
             - backend
 
     php:
-        build: .
+        build:
+            context: ./docker
+            dockerfile: Dockerfile
         container_name: big-project_php
         restart: unless-stopped
         depends_on: 
@@ -47,9 +49,9 @@ services:
             - .:/var/www/html/big-project
             - ./docker/nginx_log:/var/log/nginx
             - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
-            - ./docker/config/backend.conf:/etc/nginx/conf.d/backend.conf
+            - ./docker/config/app.conf:/etc/nginx/conf.d/app.conf
         ports:
-            - "80:80"
+            - "8000:80"
         depends_on: 
             - php
         networks: 
