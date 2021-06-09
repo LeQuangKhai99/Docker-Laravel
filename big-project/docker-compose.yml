@@ -50,8 +50,8 @@ services:
             - ./docker/nginx_log:/var/log/nginx
             - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
             - ./docker/config/app.conf:/etc/nginx/conf.d/app.conf
-        ports:
-            - "8000:80"
+        # ports:
+        #     - "80:80"
         depends_on: 
             - php
         networks: 
