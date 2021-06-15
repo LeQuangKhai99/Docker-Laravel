@@ -1,0 +1,366 @@
+2021-06-13T12:10:15.118391Z mysqld_safe Logging to '/var/lib/mysql/6ee1e4df0df6.err'.
+2021-06-13T12:10:15.154873Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2021-06-13T12:10:15.936138Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-13T12:10:15.942385Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.34) starting as process 288 ...
+2021-06-13T12:10:15.961746Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-06-13T12:10:15.961773Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-13T12:10:15.961780Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-13T12:10:15.961786Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-13T12:10:15.961793Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-13T12:10:15.961799Z 0 [Note] InnoDB: Using Linux native AIO
+2021-06-13T12:10:15.965352Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-13T12:10:15.970528Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-13T12:10:15.980085Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-13T12:10:16.003270Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-13T12:10:16.010325Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-13T12:10:16.015414Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:16.015449Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:16.015457Z 0 [Note] InnoDB: Retrying to lock the first data file
+2021-06-13T12:10:17.015611Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:17.015657Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:18.016079Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:18.016123Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:19.016268Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:19.016314Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:20.016443Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:20.016488Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:21.017341Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:21.017385Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:22.017531Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:22.017574Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:23.017695Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:23.017739Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:24.017889Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:24.017936Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:25.018078Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:25.018121Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:26.018265Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:26.018308Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:27.018436Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:27.018497Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:28.018647Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:28.018692Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:29.018836Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:29.018882Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:30.019785Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:30.019828Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:31.019955Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:31.019999Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:32.020572Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:32.020660Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:33.020912Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:33.020959Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:34.021409Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:34.021454Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:35.021606Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:35.021677Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:36.021810Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:36.021879Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:37.022065Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:37.022233Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:38.022374Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:38.022411Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:39.022527Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:39.022565Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:40.022713Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:40.022754Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:41.023255Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:41.023299Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:42.023481Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:42.023558Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:43.023948Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:43.023996Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:44.024151Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:44.024200Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:45.024587Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:45.024629Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:46.025039Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:46.025082Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:47.026019Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:47.026075Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:48.026267Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:48.026322Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:49.026411Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:49.026471Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:50.026649Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:50.026791Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:51.027015Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:51.027063Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:52.027211Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:52.027253Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:53.027397Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:53.027442Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:54.027594Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:54.027642Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:55.027771Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:55.027817Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:56.027934Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:56.027978Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:57.028828Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:57.028894Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:58.029045Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:58.029085Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:10:59.029222Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:10:59.029264Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:00.029483Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:00.029533Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:01.029711Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:01.029777Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:02.030433Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:02.030475Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:03.030560Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:03.030598Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:04.030733Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:04.030777Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:05.030894Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:05.030939Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:06.031060Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:06.031108Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:07.031255Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:07.031299Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:08.031412Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:08.031458Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:09.031633Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:09.031677Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:10.031736Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:10.031781Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:11.031944Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:11.031993Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:12.032150Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:12.032214Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:13.032309Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:13.032352Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:11:14.032504Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:11:14.032547Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:09.626442Z mysqld_safe Logging to '/var/lib/mysql/6ee1e4df0df6.err'.
+2021-06-13T12:12:09.666457Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2021-06-13T12:12:09.914826Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-13T12:12:09.918332Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.34) starting as process 322 ...
+2021-06-13T12:12:09.925461Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-06-13T12:12:09.925481Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-13T12:12:09.925488Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-13T12:12:09.925495Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-13T12:12:09.925501Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-13T12:12:09.925507Z 0 [Note] InnoDB: Using Linux native AIO
+2021-06-13T12:12:09.925735Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-13T12:12:09.925853Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-13T12:12:09.931494Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-13T12:12:09.953242Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-13T12:12:09.959183Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-13T12:12:09.969805Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:09.969852Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:09.969870Z 0 [Note] InnoDB: Retrying to lock the first data file
+2021-06-13T12:12:10.970022Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:10.970066Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:11.971123Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:11.971161Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:12.971483Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:12.971524Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:13.971683Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:13.971725Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:14.971870Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:14.971912Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:15.972065Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:15.972102Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:16.972205Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:16.972244Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:17.972388Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:17.972422Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:18.973026Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:18.973068Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:19.973611Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:19.973648Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:20.975288Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:20.975326Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:21.975391Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:21.975437Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:22.975989Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:22.976026Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:23.976369Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:23.976413Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:24.977089Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:24.977134Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:25.977827Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:25.977864Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:26.978649Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:26.978690Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:27.979063Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:27.980610Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:28.981542Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:28.981584Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:29.981723Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:29.981767Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:30.982113Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:30.982201Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:31.982451Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:31.982574Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:32.982722Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:32.982786Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:33.982941Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:33.983010Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:34.983307Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:34.983350Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:35.983632Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:35.983764Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:36.983948Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:36.984056Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:37.984135Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:37.984225Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:38.984385Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:38.984432Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:39.984537Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:39.984584Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:40.986071Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:40.986108Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:41.986677Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:41.986817Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:42.986964Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:42.987073Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:43.987317Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:43.987369Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:44.987501Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:44.987626Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:45.987763Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:45.987850Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:46.988061Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:46.988185Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:47.988535Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:47.988665Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:48.989165Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:48.989211Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:49.989847Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:49.989969Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:50.990350Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:50.990483Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:51.990874Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:51.990998Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:52.991139Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:52.991188Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:53.991251Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:53.991296Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:54.992116Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:54.992228Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:55.992997Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:55.993137Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:12:56.993257Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:12:56.993308Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:47.014552Z mysqld_safe Logging to '/var/lib/mysql/6ee1e4df0df6.err'.
+2021-06-13T12:15:47.061011Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2021-06-13T12:15:47.261448Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-13T12:15:47.265457Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.34) starting as process 333 ...
+2021-06-13T12:15:47.274082Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-06-13T12:15:47.274113Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-13T12:15:47.274121Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-13T12:15:47.274128Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-13T12:15:47.274134Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-13T12:15:47.274141Z 0 [Note] InnoDB: Using Linux native AIO
+2021-06-13T12:15:47.274381Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-13T12:15:47.274486Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-13T12:15:47.277406Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-13T12:15:47.291398Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-13T12:15:47.294548Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-13T12:15:47.304797Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:47.306298Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:47.306326Z 0 [Note] InnoDB: Retrying to lock the first data file
+2021-06-13T12:15:48.306914Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:48.307049Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:49.307137Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:49.307191Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:50.307472Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:50.307587Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:51.308044Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:51.308179Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:52.308786Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:52.308839Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:53.309480Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:53.309524Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:54.311333Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:54.311370Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:55.312222Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:55.312291Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:56.312528Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:56.312664Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:57.312990Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:57.313124Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:58.313288Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:58.313381Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:15:59.313717Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:15:59.313871Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:00.314181Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:00.314314Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:01.314750Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:01.314916Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:02.315111Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:02.315212Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:03.315453Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:03.315581Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:04.315722Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:04.315777Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:05.316585Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:05.316725Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:06.317024Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:06.317142Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:07.317426Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:07.317549Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:08.317930Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:08.318077Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:09.318352Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:09.318491Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:10.318670Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:10.318801Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:11.318873Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:11.318921Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:12.318985Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:12.319033Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:13.319826Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:13.319883Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:14.320069Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:14.320207Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:15.321085Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:15.321207Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:16.321577Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:16.321710Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:17.322633Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:17.322771Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:18.323136Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:18.323299Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:19.323954Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:19.324074Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:20.324333Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:20.324465Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:16:21.324737Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:16:21.324873Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:36.103803Z mysqld_safe Logging to '/var/lib/mysql/6ee1e4df0df6.err'.
+2021-06-13T12:19:36.142962Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+2021-06-13T12:19:36.375784Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-06-13T12:19:36.377082Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.34) starting as process 289 ...
+2021-06-13T12:19:36.385574Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-06-13T12:19:36.385597Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-06-13T12:19:36.385604Z 0 [Note] InnoDB: Uses event mutexes
+2021-06-13T12:19:36.385610Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-06-13T12:19:36.385616Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-13T12:19:36.385621Z 0 [Note] InnoDB: Using Linux native AIO
+2021-06-13T12:19:36.385857Z 0 [Note] InnoDB: Number of pools: 1
+2021-06-13T12:19:36.385953Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-06-13T12:19:36.391478Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-06-13T12:19:36.415224Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-13T12:19:36.422313Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-13T12:19:36.427162Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:36.427213Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:36.427221Z 0 [Note] InnoDB: Retrying to lock the first data file
+2021-06-13T12:19:37.428169Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:37.428213Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:38.428359Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:38.428401Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:39.428553Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:39.428601Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:40.428747Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:40.428810Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:41.429431Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:41.429476Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:42.429532Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:42.429575Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:43.429632Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:43.429678Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2021-06-13T12:19:44.430715Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+2021-06-13T12:19:44.430757Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.

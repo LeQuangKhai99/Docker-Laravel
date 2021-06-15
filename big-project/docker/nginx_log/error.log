@@ -1,3 +1,64 @@
-2021/06/07 02:25:22 [error] 25#25: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
-2021/06/07 16:06:24 [warn] 25#25: *10 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.24.0.1, server: backend.test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "backend.test.com:8000"
-2021/06/07 16:15:05 [warn] 25#25: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.24.0.1, server: backend.test.com, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.2:9000", host: "backend.test.com:8000"
+2021/06/14 14:42:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/14 14:42:12 [notice] 30#30: gracefully shutting down
+2021/06/14 14:42:12 [notice] 30#30: exiting
+2021/06/14 14:42:12 [notice] 30#30: exit
+2021/06/14 14:42:12 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/06/14 14:42:12 [notice] 1#1: worker process 30 exited with code 0
+2021/06/14 14:42:12 [notice] 1#1: exit
+2021/06/14 14:42:16 [notice] 1#1: using the "epoll" event method
+2021/06/14 14:42:16 [notice] 1#1: nginx/1.21.0
+2021/06/14 14:42:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/14 14:42:16 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/14 14:42:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/06/14 14:42:16 [notice] 1#1: start worker processes
+2021/06/14 14:42:16 [notice] 1#1: start worker process 30
+2021/06/14 15:02:25 [notice] 1#1: using the "epoll" event method
+2021/06/14 15:02:25 [notice] 1#1: nginx/1.21.0
+2021/06/14 15:02:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/14 15:02:25 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/14 15:02:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/06/14 15:02:25 [notice] 1#1: start worker processes
+2021/06/14 15:02:25 [notice] 1#1: start worker process 23
+2021/06/14 15:38:42 [notice] 1#1: using the "epoll" event method
+2021/06/14 15:38:42 [notice] 1#1: nginx/1.21.0
+2021/06/14 15:38:42 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/14 15:38:42 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/14 15:38:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/14 15:38:42 [notice] 1#1: start worker processes
+2021/06/14 15:38:42 [notice] 1#1: start worker process 31
+2021/06/14 15:49:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/14 15:49:46 [notice] 31#31: gracefully shutting down
+2021/06/14 15:49:46 [notice] 31#31: exiting
+2021/06/14 15:49:46 [notice] 31#31: exit
+2021/06/14 15:49:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/06/14 15:49:46 [notice] 1#1: worker process 31 exited with code 0
+2021/06/14 15:49:46 [notice] 1#1: exit
+2021/06/14 15:52:22 [notice] 1#1: using the "epoll" event method
+2021/06/14 15:52:22 [notice] 1#1: nginx/1.21.0
+2021/06/14 15:52:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/14 15:52:22 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/14 15:52:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/14 15:52:22 [notice] 1#1: start worker processes
+2021/06/14 15:52:22 [notice] 1#1: start worker process 31
+2021/06/14 15:57:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/14 15:57:08 [notice] 31#31: gracefully shutting down
+2021/06/14 15:57:09 [notice] 31#31: exiting
+2021/06/14 15:57:09 [notice] 31#31: exit
+2021/06/14 15:57:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/06/14 15:57:09 [notice] 1#1: worker process 31 exited with code 0
+2021/06/14 15:57:09 [notice] 1#1: exit
+2021/06/14 16:04:27 [notice] 1#1: using the "epoll" event method
+2021/06/14 16:04:27 [notice] 1#1: nginx/1.21.0
+2021/06/14 16:04:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/14 16:04:27 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/14 16:04:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/14 16:04:27 [notice] 1#1: start worker processes
+2021/06/14 16:04:27 [notice] 1#1: start worker process 31
+2021/06/15 14:38:32 [notice] 1#1: using the "epoll" event method
+2021/06/15 14:38:32 [notice] 1#1: nginx/1.21.0
+2021/06/15 14:38:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/15 14:38:32 [notice] 1#1: OS: Linux 5.8.0-55-generic
+2021/06/15 14:38:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/15 14:38:32 [notice] 1#1: start worker processes
+2021/06/15 14:38:32 [notice] 1#1: start worker process 31
+2021/06/15 14:38:43 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9981", referrer: "http://localhost:9981/"
