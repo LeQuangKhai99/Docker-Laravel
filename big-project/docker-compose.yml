@@ -12,7 +12,23 @@ services:
             - ./docker/mysql:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: app_db
+            MYSQL_DATABASE: mobile_shop
+            MYSQL_USER: app_user
+            MYSQL_PASSWORD: 123456
+        networks: 
+            - backend
+    
+    mysql2:
+        image: mysql:5.7
+        container_name: big-project_mysql2
+        restart: unless-stopped
+        ports:
+            - 3301:3306
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: mobile_shop
             MYSQL_USER: app_user
             MYSQL_PASSWORD: 123456
         networks: 
@@ -51,7 +67,7 @@ services:
             - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
             - ./docker/config/app.conf:/etc/nginx/conf.d/app.conf
         ports:
-            - "9981:80"
+            - "9982:80"
         depends_on: 
             - php
         networks: 
@@ -68,8 +84,8 @@ services:
         environment:
             - PMA_HOST=mysql
             - PMA_PORT=3306
-            - PMA_USER=app_user
-            - PMA_PASSWORD=123456
+            - PMA_USER=root
+            - PMA_PASSWORD=root
             - MYSQL_ROOT_PASSWORD=root
             - UPLOAD_LIMIT=64M
         networks: 
