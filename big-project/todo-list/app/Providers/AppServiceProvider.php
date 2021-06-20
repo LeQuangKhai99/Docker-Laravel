@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->singleton(
+            \App\Repositories\Job\JobRepositoryInterface::class,
+            \App\Repositories\Job\JobRepository::class
+        );
     }
 }
