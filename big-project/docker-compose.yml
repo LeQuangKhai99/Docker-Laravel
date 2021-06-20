@@ -1,0 +1,96 @@
+version: '3'
+
+services:
+
+    mysql:
+        image: mysql:5.7
+        container_name: big-project_mysql
+        restart: unless-stopped
+        ports:
+            - 3309:3306
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: mobile_shop
+            MYSQL_USER: app_user
+            MYSQL_PASSWORD: 123456
+        networks: 
+            - backend
+    
+    mysql2:
+        image: mysql:5.7
+        container_name: big-project_mysql2
+        restart: unless-stopped
+        ports:
+            - 3301:3306
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: mobile_shop
+            MYSQL_USER: app_user
+            MYSQL_PASSWORD: 123456
+        networks: 
+            - backend
+
+    php:
+        build:
+            context: ./docker
+            dockerfile: Dockerfile
+        container_name: big-project_php
+        restart: unless-stopped
+        depends_on: 
+            - mysql
+            - redis
+        volumes: 
+            - .:/var/www/html/big-project
+        networks: 
+            - backend
+            - frontend
+
+    redis:
+        image: redis:5-alpine
+        container_name: big-project_redis
+        volumes: 
+            - ./docker/redis:/data
+        restart: unless-stopped
+        networks: 
+            - backend
+        
+    nginx:
+        image: nginx:latest
+        container_name: big-project_nginx
+        volumes: 
+            - .:/var/www/html/big-project
+            - ./docker/nginx_log:/var/log/nginx
+            - ./docker/php-fpm/php-fpm.log:/var/log/php-fpm.log
+            - ./docker/config/app.conf:/etc/nginx/conf.d/app.conf
+        ports:
+            - "9982:80"
+        depends_on: 
+            - php
+        networks: 
+            - frontend
+
+    phpmyadmin:
+        image: phpmyadmin
+        container_name: big-project_phpmyadmin
+        restart: unless-stopped
+        ports:
+            - 8282:80
+        depends_on: 
+            - mysql
+        environment:
+            - PMA_HOST=mysql
+            - PMA_PORT=3306
+            - PMA_USER=root
+            - PMA_PASSWORD=root
+            - MYSQL_ROOT_PASSWORD=root
+            - UPLOAD_LIMIT=64M
+        networks: 
+            - backend
+
+networks: 
+    backend:
+    frontend:
